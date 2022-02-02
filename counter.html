@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            position: fixed;
+            left: 250px;
+            top: 70px;
+            text-align: center;
+            height: 350px;
+            width: 700px;
+            border: 1px solid aqua;
+            background-color: aqua;
+            text-align: center;
+            font-size: 30px;
+            
+            
+        }
+        button{
+            padding: 0.8rem 1rem;
+            border-radius: 0.5rem;
+            margin: 1rem;
+            font-size: 23px;
+        }
+        button:hover{
+            background-color:  purple;
+        }
+        .counter{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Counter</h1>
+        <div class="counter">0</div>
+        <button id="plus" onclick="changeCounter(plus)">Increase</button>
+        <button id="Reset" onclick="changeCounter(Reset)">Reset</button>
+        <button id="minus" onclick="changeCounter(minus)">Decrease</button>
+    </div>
+    <script>
+        let counter=document.querySelector(".counter")
+        let count=0;
+
+        function changeCounter(button){
+            if (button==plus){
+                count+=1
+            }else if(button==minus){
+                count-=1;
+            }
+            else if(button==Reset){
+                count=0;
+            }
+            counter.innerHTML=count;
+        }
+    </script>
+
+</body>
+</html>

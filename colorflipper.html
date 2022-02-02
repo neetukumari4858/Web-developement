@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colour flipper</title>
+    <link rel="stylesheet" href="colorflipper.css"/>
+</head>
+<body>
+    <h1>Colour Flipper</h1>
+   
+    <input id="inp" placeholder="Entre any color:-">
+    <button id="btn" onclick="color()">click here</button>
+    <div class="container" id="back" style="background-color:black"></div>
+</body>
+<script>
+    function color(){
+        document.getElementById("back").style.backgroundColor=document.getElementById("inp").value
+    }  
+</script>
+</html>

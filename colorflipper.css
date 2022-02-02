@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+#inp{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 5rem;
+    border-radius: 0.5rem;
+    font-size: large;
+}
+#btn{
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: larger;
+}
+.container{
+    display: flex;
+    margin: auto;
+    width: 250px; height: 300px;
+    border: 1px solid black;
+    margin-top: 2rem;
+    
+}

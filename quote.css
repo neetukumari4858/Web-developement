@@ -1,0 +1,37 @@
+#container{
+    border: 5px solid black;
+    height: 400px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+#output{
+    margin: 25px auto;
+    font-size: 31px;
+    color: black;
+    padding-top: 50px;
+    
+
+}
+#btn{
+    margin: 50px auto;
+    height: 50px;
+    width: 7rem;
+    border-radius: 0.5rem;
+    font-size: 22px;
+    margin-top: 5rem;
+    background-color: aqua;
+}  
+#btn:hover{
+    background-color: red;
+}
+h1{
+    text-align: center;
+}
+#body1{
+    height: 600px;
+    padding-top:1rem;
+    margin: 0;
+}
